@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace SportsStore.Models
 {
-    public class SeedData
+    public static class SeedData
     {
         public static void EnsurePopulated(IApplicationBuilder app)
         {
@@ -24,7 +24,7 @@ namespace SportsStore.Models
 
                 new Product
                 {
-                    Name = "Lifejacket",
+                    Name = "Life jacket",
                     Description = "Protective and fashionable",
                     Category = "Watersports",
                     Price = 48.95M
